@@ -1,0 +1,52 @@
+edit this file for any changes/functions for this ugly looking and not really working app 
+
+!!!!!!!TO RUN THE APP!!!!!!!
+right click pom.xml and click open in integrated terminal
+run 
+./run.sh
+then go to chrome and go to 
+http://localhost:8080/
+
+username is username 
+password is password
+
+if i every manage to connect to mysql will put the codes and settings in the file
+
+current code is just static app for a single user and without the use of mysql, and quite ugly looking
+Ohya 
+
+to debug
+    try to figure out why the update function for budget is not working
+    try to figure out why the calendar popup not showing up for adding/updating spending
+
+
+frontend
+    change the colour its so ugly
+
+functions
+    to connect to mysql
+        will delete all the variable String username from budget and spending 
+        after i connect successfully, hopefully
+        this may also help to update the changes for budget and spending (i think?)
+
+    the purpose of budget was to have a progress bar for every category (optional since sounds like headache)
+        for eg the budget for food is 300 and spending for the month is 60 will show 60/300 progress bar
+        will try to figure out how to do this for both the frontend and the logic
+
+    a checklist for the user (for eg groceries that should be purchased every month)
+        this will be refreshed per month
+        (or every two weeks if they set it they way if possible although currently idk how)
+        preferably a link to ntuc or lazada or whatever shopping websites 
+        (maybe should ask for their preferences at setting or something)
+        (or to go the google link for that item we see whatever we can do)
+
+        but once ticked they will be reminded to add it to the spending (like the amount)
+
+    a pie chart to show the percentage of spendings for different category (hopefully can be colourful)
+    like those bank statements 
+        this can be done using bootstrap but the logic is one big headache
+
+    change the spending desc to a table of buttons 
+    (consists of options like lunch dinner or shopping(the categories))
+        can also be done using bootstrap but the code is also one big headache
+        will settle this soon (i hope) since i think i kind of figured out how to do this

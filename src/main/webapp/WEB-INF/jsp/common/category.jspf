@@ -1,0 +1,38 @@
+<%-- 
+    <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+        <li>
+            <a type="button" class="btn btn" href="/add-budget-food">
+                Food
+            </a>
+        </li>
+        <%-- <li>
+            <a type="button" class="btn btn" href="/add-budget?category=${budget.Category}">
+                Update
+            </a>
+        </li>
+                <li>
+            <a type="button" class="btn btn" href="/add-budget?category=${budget.Category}">
+                Update
+            </a>
+        </li>
+                <li>
+            <a type="button" class="btn btn" href="/add-budget?category=${budget.Category}">
+                Update
+            </a>
+        </li>
+                <li>
+            <a type="button" class="btn btn" href="/add-budget?category=${budget.Category}">
+                Update
+            </a>
+        </li>
+                <li>
+            <a type="button" class="btn btn" href="/add-budget?category=${budget.Category}">
+                Update
+            </a>
+        </li>
+    </ul>
+ --%>
+
+<a type="button" class="btn btn-info" href="/add-budget-food">
+Food
+</a>
